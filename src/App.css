@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.fade-out {
+  animation: fade-out 2000ms;
+  animation-fill-mode: forwards;
+}
+.slide-in {
+  animation: slide-in 5000ms;
+  visibility: visible !important;
+}
+.detailPage{
+  visibility: hidden;
+}
+.detaiModal{
+  height: 100vh;
+}
+.ant-modal-content{
+  height: 100vh;
+}
+@keyframes fade-out {
+  from {
+      opacity: 1;
+      display: block;
+  }
+  to {
+      opacity: 0;
+      display: none;
+  }
+}
