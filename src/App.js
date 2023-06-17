@@ -14,6 +14,8 @@ function App() {
     }, 2000);
     
     // document.getElementById("detailPage").classList.add("slide-in");
+
+    
   }
   const columns = [
     {
